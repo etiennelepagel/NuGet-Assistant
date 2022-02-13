@@ -1,1 +1,1 @@
-# NuGet-Assistant
+# NuGet Assistant
