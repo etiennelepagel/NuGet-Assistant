@@ -1,0 +1,9 @@
+.settings-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.save-button {
+  width: fit-content;
+}

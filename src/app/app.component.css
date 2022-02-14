@@ -1,0 +1,21 @@
+.app-container {
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+.app-menu {
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.menu-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex: 1;
+}
