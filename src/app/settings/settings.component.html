@@ -1,7 +1,13 @@
 <div class="settings-container">
-  <mat-form-field class="example-full-width" appearance="fill">
+  <mat-form-field class="example-full-width">
     <mat-label>Root Directory</mat-label>
     <input matInput [formControl]="pathInputControl">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>NuGet Source</mat-label>
+    <mat-select [formControl]="sourceControl">
+      <mat-option *ngFor="let source of getSources()" [value]="source">{{source}}</mat-option>
+    </mat-select>
   </mat-form-field>
 
   <button mat-raised-button color="primary" (click)="save()" class="save-button">Save</button>
